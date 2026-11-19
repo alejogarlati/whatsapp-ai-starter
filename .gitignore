@@ -1,0 +1,30 @@
+# Environment variables
+.env*
+!.env.example
+
+# .NET Build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Node / Frontend artifacts
+node_modules/
+dist/
+build/
+.next/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
